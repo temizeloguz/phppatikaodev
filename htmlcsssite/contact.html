@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/sitem.css" />
+    <title>Techwizard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Source+Sans+Pro&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="benimsitem.html">
+          <img src="img/techwizard logo.png" class="sitelogo" />
+        </a>
+
+        <span>
+          <a href="products.html" class="products">Tüm Ürünler</a>
+        </span>
+        <span>
+          <a href="aboutus.html" class="aboutUs">Hakkımızda</a>
+        </span>
+        <span>
+          <a href="contact.html" class="support">Destek</a>
+        </span>
+      </nav>
+    </header>
+    <br />
+
+    <h1 id="campaigns">Contact Us !</h1>
+    <br /><br />
+    <form
+      action="mailto:oguztemizel@hotmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label>Your name:</label><br />
+      <input type="text" name="yourName" id="name" /><br required/>
+      <label>Your E-maIl:</label><br />
+      <input type="email" name="yourEmail" id="email"  required/><br />
+      <label>Your Message:</label><br />
+      <textarea name="name" rows="10" cols="30" required></textarea>
+      <p class="licenseAgreement">
+        I read and agreed the <u>lIcense polIcy.</u>  <input type="checkbox" name="checkbox" id="checkbox" required>
+      </p>
+   
+      <input type="submit" value="Send" name="submitButton" id="submit" />
+    </form>
+  </body>
+</html>
