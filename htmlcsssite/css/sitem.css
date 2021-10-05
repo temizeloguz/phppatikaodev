@@ -26,7 +26,7 @@
 }
 
 body {
-  background: url(/githubpush/htmlcsssite/img/bodybackground.png);
+  background: url(/img/bodybackground.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -110,7 +110,7 @@ text-align: center;
   /*background-color: #f7e3c4;*/
 
   width: 100%;
-  background: url(/githubpush/htmlcsssite/img/navbardeneme1.png);
+  background: url(/img/navbardeneme1.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-style: outset;
